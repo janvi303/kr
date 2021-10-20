@@ -1,0 +1,113 @@
+.footer{
+    background-color:#424a52;
+    padding-bottom: 80px;
+  }
+  
+  .f-left{
+    color: #fff;
+    line-height: 14px;
+  }
+  
+  .f-content{
+    
+    text-align: left;
+    position: relative;
+  } 
+  
+  .F-contact{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+   .F-contact:after{
+    content: '';
+    position: absolute;
+    top: 60px;
+    width: 50px;
+    left: 7px;
+    margin: 0 auto;
+    border-bottom: 2px solid #00af73;
+  }
+  
+  .f-text{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  
+  .f-icon{
+    margin-bottom: 30px;
+  }
+  
+  .f-icon i {
+    background: #00af73;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 30px;
+      vertical-align: middle;
+      padding: 10px;
+      display: inline-flex;
+  }
+  
+  .f-icon span{
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    OPACITY: 50%;
+      font-weight: 300;
+  }
+  
+  .f-end{
+    text-align: end;
+  }
+  
+  .inputbox{
+    background-color: #fdfdfd;
+    border: none;
+    width: 301.99px;
+    height: 50px;
+    margin-top: 20px;
+  
+    padding-bottom: 20px;
+    
+  }
+  
+  
+  .inputboxmessage{
+    width: 634px;
+    height: 165px;
+    margin-top: 20px;
+    border: none;
+    padding-bottom: 138px;
+  }
+  
+  input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 6;
+    padding-left: 10px;
+  }
+  
+  
+  .btn{
+    float: left;
+    padding: 0px;
+    margin-top: 40px;
+  }
+  .send-btn{
+    border: 1px solid #00b074;
+    width: 199.99px;
+    height: 50px;
+    color: #00b074;
+    /* margin-top: 30px; */
+    background-color: transparent;
+    font-size: 16px;}
+    
+    .f-link{
+        text-align: center;
+        background-color: #00b074;
+        font-size: 14px;
+        padding: 17px;
+        height: 50px;
+        color: #fff;
+    }
